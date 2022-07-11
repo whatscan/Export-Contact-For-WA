@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="open_in_whatsapp">
+        <item>Chat with New Number</item>
+        <item>Chat with Message</item>
+        <item>Chat with Blank Message</item>
+    </array>
+    <array name="possible_conversions">
+        <item>CSV</item>
+        <item>HTML</item>
+        <item>PDF</item>
+        <item>VCF</item>
+        <item>JSON</item>
+        <item>XML</item>
+        <item>TXT</item>
+    </array>
+    <array name="tab_titles">
+        <item>CONTACTS</item>
+        <item>EXPORTS</item>
+    </array>
+</resources>

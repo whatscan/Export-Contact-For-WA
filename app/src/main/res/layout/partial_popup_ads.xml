@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llContactE"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginTop="@dimen/half_space"
+        android:layout_marginRight="@dimen/space"
+        android:minHeight="150dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress_bar2"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/space" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_export_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_margin="@dimen/space" />
+
+        <TextView
+            android:id="@+id/path_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/exporting_msg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_sub_heading_regular"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_yes_li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:paddingLeft="22dp"
+        android:paddingTop="4dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/button_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="100"
+            android:background="@drawable/button_light"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+</LinearLayout>
