@@ -63,7 +63,7 @@ public class Advertisement {
 
     public static void preLoadFull(Activity activity) {
         AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(activity, "ca-app-pub-6447655601926357/9895627502", adRequest,
+        InterstitialAd.load(activity, "ca-app-pub-4610744403189062/1757779156", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -83,7 +83,7 @@ public class Advertisement {
 
     public static void preLoadBanner(Activity activity) {
         AdView adView = new AdView(activity);
-        adView.setAdUnitId("ca-app-pub-6447655601926357/3521790845");
+        adView.setAdUnitId("ca-app-pub-4610744403189062/6749169814");
         AdSize adSize = getAdSize(activity);
         adView.setAdSize(adSize);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -114,7 +114,7 @@ public class Advertisement {
 
 
     public static void preLoadNative(Activity activity) {
-        AdLoader.Builder builder = new AdLoader.Builder(activity, "ca-app-pub-6447655601926357/9352702025").forNativeAd(nativeAd -> {
+        AdLoader.Builder builder = new AdLoader.Builder(activity, "ca-app-pub-4610744403189062/4123006470").forNativeAd(nativeAd -> {
             mNativeAd = nativeAd;
         });
 
@@ -199,7 +199,7 @@ public class Advertisement {
     }
 
     public static void handlerSec() {
-        new CountDownTimer(4 * 1000, 1000) {
+        new CountDownTimer(12 * 1000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
 

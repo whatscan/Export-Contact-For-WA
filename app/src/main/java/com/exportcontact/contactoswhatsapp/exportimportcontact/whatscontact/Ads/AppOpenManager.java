@@ -52,7 +52,7 @@ public class AppOpenManager implements Application.ActivityLifecycleCallbacks, L
             }
         };
         AdRequest adRequest = getAdRequest();
-        AppOpenAd.load(myApplication, "ca-app-pub-6447655601926357/5413457015", adRequest, AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
+        AppOpenAd.load(myApplication, "ca-app-pub-4610744403189062/1496843131", adRequest, AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
     }
 
     public void showAdIfAvailable() {

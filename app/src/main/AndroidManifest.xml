@@ -67,7 +67,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6447655601926357~2104767395" />
+            android:value="ca-app-pub-4610744403189062~6146534587" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
